@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+
+margin{
+    margin: 0;
+    padding: 0;
+    box-sizing: boder-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(45deg, #ffffff, #e9f5f9, #d3eaf2, #d3eaf2, #bee0ec, #a8d5e5, #92cbdf, #7cc0d8, #66b6d2, #51abcb, #3ba1c5, #2596be, #2187ab, #1e7898, #1a6985, #165a72, #134b5f, #0f3c4c, #0b2d39, #071e26, #040f13, #000000);
+    background-size: 800% 800%;
+    animation: colors 40s ease infinite;
+}
+
+@keyframes colors {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1px;
+
+}
+
+.cabecalho-imagem{
+    height: 90px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item{
+    font-family: 'Sarala', sans-serif;
+    color: #2C3333;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.conteudo{
+    margin-bottom: 30px;
+    border-top: 0.4px solid #000000;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito{
+    display: flex;  
+    flex-direction: column;
+  
+}
+
+.conteudo-principal-escrito-titulo{
+    
+    font-weight: 400;
+    font-size: 64px;
+    color: #683207
+}
+
+.conteudo-principal-escrito-subtitulo{
+    font-family: 'Sarala', sans-serif;
+}
+
+.conteudo-principal-imagem{
+    max-width: 500px;
+}
+
+.conteudo-secundario{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.conteudo-secundario-titulo{
+    border-top: 0.4px solid #FFF2E7;
+    padding: 48px;
+}
+
+.rodape{
+    display: flex;
+}
+
+.rodape-imagem{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
